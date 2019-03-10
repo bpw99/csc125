@@ -1,0 +1,52 @@
+import java.util.*;
+/**
+ *Runs the final Questions from the Question class
+ *
+ * @Bret Wilson
+ * @11/12/18
+ */
+public class QuestionTester 
+{
+    public static void main(String[] args)
+    {
+        int count = 0;
+        Scanner scan = new Scanner(System.in);
+        ChoiceQuestion q = new ChoiceQuestion();
+        System.out.println("Enter each response as a letter, enter Q to quit the program");
+        q.setText("What Month is It? \n (A) October \n (B) November \n (C) December \n (D) July");
+        q.setAnswer("B");
+        presentQ(q);
+        
+        
+        
+       
+
+      
+
+        ChoiceQuestion q2 = new ChoiceQuestion();
+        q2.setText("When is the next election? \n (A) 2020 \n (B) 2021 \n (C) 2022 \n (D) 2023 ");
+        q2.setAnswer("A");
+        presentQ(q2);
+    
+    }
+     public static void presentQ(ChoiceQuestion q)
+        {
+            int count = 0;
+            Scanner scan = new Scanner(System.in);
+            q.display();
+            System.out.println("Your answer: ");
+            String response = scan.nextLine();
+            System.out.println("Result: " + q.checkAnswer(response));
+            
+             if(response.equalsIgnoreCase("Q"))
+        {
+            System.out.println("The program has been terminated");
+            scan.close();
+        }
+        }
+        
+       
+            
+
+}
+    

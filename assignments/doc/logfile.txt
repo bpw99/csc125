@@ -1,0 +1,28 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.11.jar;C:\Program Files (x86)\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\BlueJ\lib\lang-stride.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;C:\Users\bret\CSC 125 Bret's Assignments
+-d
+C:\Users\bret\CSC 125 Bret's Assignments\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\bret\CSC 125 Bret's Assignments\QuestionTester.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\bret\CSC 125 Bret's Assignments\QuestionTester.java...
+Constructing Javadoc information...
+javadoc: error - No public or protected classes found to document.
+1 error
